@@ -1,7 +1,7 @@
 const log4js = require('log4js');
 const path = require('path');
 const httpContext = require('express-http-context');
-const logConfig = require('../config').log;
+const logConfig = require('../config.json').log;
 
 const logAppenders = {
   file: { type: 'file', filename: logConfig.path },

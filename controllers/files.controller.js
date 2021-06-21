@@ -4,7 +4,7 @@ const fs = require('fs');
 const jimp = require('jimp');
 const path = require('path');
 
-const config = require('../config');
+const config = require('../config.json');
 
 const logger = require('../services/logger')(module);
 
